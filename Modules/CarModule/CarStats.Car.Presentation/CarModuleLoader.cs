@@ -14,10 +14,10 @@ namespace CarStats.Car.Presentation
         public IServiceCollection Load(IServiceCollection services)
         {
 
-            ModuleLoaderExtensions.GetModuleConfiguration(
-                    fileName: "car-appsettings",
-                    moduleName: "CarModule",
-                    packageName: "CarStats.Car.Presentation");
+            //ModuleLoaderExtensions.GetModuleConfiguration(
+            //        fileName: "car-appsettings",
+            //        moduleName: "/.",
+            //        packageName: "/.");
 
             return services;
         }

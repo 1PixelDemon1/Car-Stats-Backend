@@ -11,25 +11,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedKernel", "SharedKerne
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AuthModule", "AuthModule", "{6D36A39A-FAFD-4B43-836F-8923006CEF09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarStats.Auth.Presentation", "Modules\AuthModule\CarStats.Auth.Presentation\CarStats.Auth.Presentation.csproj", "{4A2C233D-985E-4FF6-88C0-C569CB86B23D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarStats.Auth.Presentation", "Modules\AuthModule\CarStats.Auth.Presentation\CarStats.Auth.Presentation.csproj", "{4A2C233D-985E-4FF6-88C0-C569CB86B23D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarStats.Auth.Contract", "Modules\AuthModule\CarStats.Auth.Contract\CarStats.Auth.Contract.csproj", "{889788A7-233F-41C4-B1CB-700126B966E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarStats.Auth.Contract", "Modules\AuthModule\CarStats.Auth.Contract\CarStats.Auth.Contract.csproj", "{889788A7-233F-41C4-B1CB-700126B966E9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserModule", "UserModule", "{9ACEE029-9352-45D5-ABB3-AD9C62219318}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CarModule", "CarModule", "{CEC488BE-5099-417E-9B70-17548A461AA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarStats.Car.Presentation", "Modules\CarModule\CarStats.Car.Presentation\CarStats.Car.Presentation.csproj", "{15106E38-3847-4A6B-AFB4-62CC3C5666E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarStats.Car.Presentation", "Modules\CarModule\CarStats.Car.Presentation\CarStats.Car.Presentation.csproj", "{15106E38-3847-4A6B-AFB4-62CC3C5666E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarStats.User.Presentation", "Modules\UserModule\CarStats.User.Presentation\CarStats.User.Presentation.csproj", "{25DE2810-5FF1-44BC-8957-6830E78619CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarStats.User.Presentation", "Modules\UserModule\CarStats.User.Presentation\CarStats.User.Presentation.csproj", "{25DE2810-5FF1-44BC-8957-6830E78619CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarStats.Car.Contract", "Modules\CarModule\CarStats.Car.Contract\CarStats.Car.Contract.csproj", "{E97DE4B6-528C-467F-8B77-FFE7B944F3C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarStats.Car.Contract", "Modules\CarModule\CarStats.Car.Contract\CarStats.Car.Contract.csproj", "{E97DE4B6-528C-467F-8B77-FFE7B944F3C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarStats.User.Contract", "Modules\UserModule\CarStats.User.Contract\CarStats.User.Contract.csproj", "{B3F836FC-0431-4BF9-A8A1-5A0B81B6E0D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarStats.User.Contract", "Modules\UserModule\CarStats.User.Contract\CarStats.User.Contract.csproj", "{B3F836FC-0431-4BF9-A8A1-5A0B81B6E0D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarStats.Utils", "SharedKernel\CarStats.Utils\CarStats.Utils.csproj", "{DCEFF24D-2279-4A33-A0CF-4CB821E6572C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarStats.Utils", "SharedKernel\CarStats.Utils\CarStats.Utils.csproj", "{DCEFF24D-2279-4A33-A0CF-4CB821E6572C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarStats.Abstractions", "SharedKernel\CarStats.Abstractions\CarStats.Abstractions.csproj", "{4D76F681-6BCF-46E1-B447-71EDEF378D48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarStats.Abstractions", "SharedKernel\CarStats.Abstractions\CarStats.Abstractions.csproj", "{4D76F681-6BCF-46E1-B447-71EDEF378D48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
