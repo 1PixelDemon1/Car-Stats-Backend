@@ -1,5 +1,6 @@
 ﻿using CarStats.Abstractions;
 using CarStats.Utils;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -13,12 +14,8 @@ namespace CarStats.Car.Presentation
     {
         public IServiceCollection Load(IServiceCollection services)
         {
-
-            //ModuleLoaderExtensions.GetModuleConfiguration(
-            //        fileName: "car-appsettings",
-            //        moduleName: "/.",
-            //        packageName: "/.");
-
+            var configuration = ModuleLoaderExtensions.GetModuleConfiguration("car-appsettings");
+            
             return services;
         }
     }
