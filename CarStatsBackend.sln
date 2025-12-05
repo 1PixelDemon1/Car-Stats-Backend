@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarStats.Utils", "SharedKer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarStats.Abstractions", "SharedKernel\CarStats.Abstractions\CarStats.Abstractions.csproj", "{4D76F681-6BCF-46E1-B447-71EDEF378D48}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarStats.Services", "SharedKernel\CarStats.Services\CarStats.Services.csproj", "{7DA231AF-7769-4955-ABA6-65B56DA1421D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{4D76F681-6BCF-46E1-B447-71EDEF378D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D76F681-6BCF-46E1-B447-71EDEF378D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D76F681-6BCF-46E1-B447-71EDEF378D48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DA231AF-7769-4955-ABA6-65B56DA1421D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DA231AF-7769-4955-ABA6-65B56DA1421D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DA231AF-7769-4955-ABA6-65B56DA1421D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DA231AF-7769-4955-ABA6-65B56DA1421D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -89,6 +95,7 @@ Global
 		{B3F836FC-0431-4BF9-A8A1-5A0B81B6E0D5} = {9ACEE029-9352-45D5-ABB3-AD9C62219318}
 		{DCEFF24D-2279-4A33-A0CF-4CB821E6572C} = {6C344951-07AD-4E13-93ED-AF732A5F612D}
 		{4D76F681-6BCF-46E1-B447-71EDEF378D48} = {6C344951-07AD-4E13-93ED-AF732A5F612D}
+		{7DA231AF-7769-4955-ABA6-65B56DA1421D} = {6C344951-07AD-4E13-93ED-AF732A5F612D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {854CEA55-A4E2-427D-9350-2B83A0293499}

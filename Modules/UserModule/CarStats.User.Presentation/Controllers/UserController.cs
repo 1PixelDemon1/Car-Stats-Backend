@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CarStats.Abstractions;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,9 +14,18 @@ namespace CarStats.User.Presentation.Controllers
     [Route("[controller]")]
     public class UserController : ControllerBase
     {
+        private readonly IUserMetadataProvider _currentUserService;
+
+        public UserController(IUserMetadataProvider currentUserService)
+        {
+            _currentUserService = currentUserService;
+        }
+
+        [Authorize]
         [HttpGet(nameof(GetToyotaOwner))]
         public string GetToyotaOwner()
         {
+            var a = _currentUserService.UserMetadata.UserId;
             return "Toyota Corolla Owner";
         }
     }

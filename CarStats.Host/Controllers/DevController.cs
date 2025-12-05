@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CarStats.Host.Controllers
 {
@@ -6,6 +7,7 @@ namespace CarStats.Host.Controllers
     [Route("[controller]")]
     public class DevController : ControllerBase
     {
+        [Authorize]
         [HttpGet("Test")]
         public string Test(string value)
         {
