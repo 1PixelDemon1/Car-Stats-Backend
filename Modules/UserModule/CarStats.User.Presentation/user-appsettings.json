@@ -1,5 +1,6 @@
 {
   "ConnectionStrings": {
-    "PostgreSql": "Server=localhost;User Id=postgres;Password=root;Port=5432;Database=car_stats;"
+    "PostgreSql": "Server=213.171.31.139;User Id=postgres;Password=ToyotaTheBest;Port=5432;Database=car_stats;",
+    "SQLite": "Data Source=database.db"
   }
 }

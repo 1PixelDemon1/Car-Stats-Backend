@@ -1,8 +1,11 @@
 ﻿using CarStats.Abstractions;
 using CarStats.Auth.Presentation.Data;
 using CarStats.Auth.Presentation.Entities;
+using CarStats.Utils;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Migrations;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using OpenIddict.Validation.AspNetCore;
 using System;
@@ -18,8 +21,11 @@ namespace CarStats.Auth.Presentation
     {
         public IServiceCollection Load(IServiceCollection services)
         {
+            var configuration = ModuleLoaderExtensions.GetModuleConfiguration("auth-appsettings");
+
             services.AddDbContext<AuthModuleDbContext>(options =>
-                options.UseSqlite("Data Source=database.db"));
+                options.UseNpgsql(configuration.GetConnectionString("PostgreSql"),
+                postgresqlOptions => postgresqlOptions.MigrationsHistoryTable(HistoryRepository.DefaultTableName, "AuthModule")));
 
             services.AddIdentity<ApplicationUserEntity, IdentityRole>(options =>
                 {
